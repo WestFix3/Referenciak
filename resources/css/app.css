@@ -1,0 +1,131 @@
+/* Tailwind alapok */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Alap stílusok */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Fejléc stílusok */
+h1 {
+    @apply text-5xl font-extrabold text-indigo-600 dark:text-indigo-300;
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-top: 30px;
+}
+
+/* Bekezdés és lista stílusok */
+p {
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e0e4e8;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+/* Linkek és gombok */
+a, a:visited {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1d6fa5;
+}
+
+/* Egyedi konténer színek */
+.custom-container-colors {
+    @apply text-gray-800 dark:text-gray-200 bg-gray-50 dark:bg-gray-800;
+}
+
+/* Doboz stílusai (pl. bejegyzések) */
+.custom-box-colors {
+    @apply bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 border-b border-gray-600;
+}
+
+/* Input mezők */
+.custom-input-field {
+    @apply text-gray-700 dark:text-gray-200 p-3 border border-gray-400 rounded-md shadow-lg focus:outline-none focus:ring-4 focus:ring-indigo-500 focus:border-transparent bg-white dark:bg-gray-800;
+}
+
+/* Checkbox stílus */
+.custom-checkbox {
+    border-radius: 4px;
+    border: 2px solid #4A5568; /* Sötétebb szürke kontúr */
+    background-color: #EDF2F7; /* Világos szürke háttér */
+}
+
+.form-control, .form-label {
+    color: black;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Csak a positions.index oldalra vonatkozó táblázat */
+.positions-table {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.positions-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1c3d57;
+}
+
+.positions-table th, .positions-table td {
+    padding: 8px;
+    text-align: left;
+    color: white;
+}
+
+.positions-table thead {
+    background-color: #1c3d57;
+}
+
+.positions-table tbody tr {
+    background-color: #1c3d57;
+}
+
+.positions-table button {
+    margin-right: 5px;
+}
+
+.move-right {
+    margin-left: 380px;
+}
