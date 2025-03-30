@@ -1,6 +1,6 @@
 # Referenciak
 
-## Multiplayer Bomberman Projekt
+## Multiplayer Bomberman
 Projekt Áttekintés
 A projekt célja egy többjátékos, kompetitív Bomberman játék fejlesztése Go nyelven, amelyet két vagy több játékos játszik. A cél, hogy az egyik játékos életben maradjon, a többivel szemben.
 
