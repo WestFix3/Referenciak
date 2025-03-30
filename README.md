@@ -32,7 +32,7 @@ Elágazó Szörny: Irányt vált elágazásoknál, néha hibázik.
 Játék Vége
 A játék rövid ideig folytatódik a játékosok haláláig, hogy eldöntse a győztest. Ha mindkét játékos meghal, a játék döntetlennel zárul.
 
-Letöltés: bomberman
+Letöltés: [Bomberman]([https://github.com/Schecher1/Minecraft-Server-Creator/blob/master/README.md](https://github.com/WestFix3/Referenciak/tree/Bomberman/bomberman))
 
 ## Laravel
 Beléptető Rendszer Projekt
