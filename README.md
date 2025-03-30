@@ -32,7 +32,7 @@ Elágazó Szörny: Irányt vált elágazásoknál, néha hibázik.
 Játék Vége
 A játék rövid ideig folytatódik a játékosok haláláig, hogy eldöntse a győztest. Ha mindkét játékos meghal, a játék döntetlennel zárul.
 
-Letöltés: ninjago_fix.zip
+Letöltés: bomberman
 
 ## Laravel
 Beléptető Rendszer Projekt
@@ -56,4 +56,4 @@ Jogosultságkezelés: Nem elegendő csak a frontend végpontokat levédeni, a m�
 Frontend Technológia: Szabadon választható volt, leírás alapján nem érdemes túlbonyolítani, viszont törekedtem a funkcionalitásra, használhatóságra és a szépségre.
 
 
-Letöltés: laravel.zip
+Letöltés: laravel
