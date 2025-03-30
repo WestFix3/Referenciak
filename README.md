@@ -56,4 +56,4 @@ Jogosultságkezelés: Nem elegendő csak a frontend végpontokat levédeni, a m�
 Frontend Technológia: Szabadon választható volt, leírás alapján nem érdemes túlbonyolítani, viszont törekedtem a funkcionalitásra, használhatóságra és a szépségre.
 
 
-A projectek fájlji megtalálhatóak a branchek között.
+A projectek fájljai megtalálhatóak a branchek között.
